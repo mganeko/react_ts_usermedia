@@ -21,6 +21,7 @@ class App extends React.Component {
     // This binding is necessary to make `this` work in the callback
     this.startVideo = this.startVideo.bind(this);
     this.stopVideoHandler = this.stopVideoHandler.bind(this);
+    this.stopVideo = this.stopVideo.bind(this);
   }
 
   componentDidMount() {
